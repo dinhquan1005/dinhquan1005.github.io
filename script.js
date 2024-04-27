@@ -25,3 +25,25 @@ var thaoButton = document.getElementById("thao");
 thaoButton.onclick = function () {
   window.open("https://www.facebook.com/L.T.G.Thao", "_blank"); //Yu nè
 };
+var gthaoButton = document.getElementById("gthao");
+
+// Thiết lập thuộc tính onclick để mở liên kết khi nút được nhấp vào
+gthaoButton.onclick = function () {
+  window.open("https://www.facebook.com/L.T.G.Thao", "_blank");
+};
+
+var pgiaoButton = document.getElementById("pgiao");
+pgiaoButton.onclick = function () {
+  window.open(
+    "https://www.facebook.com/profile.php?id=100074224008937",
+    "_blank"
+  );
+};
+
+var ddungButton = document.getElementById("ddung");
+pgiaoButton.onclick = function () {
+  window.open(
+    "https://www.facebook.com/profile.php?id=100057810002228",
+    "_blank"
+  );
+};
