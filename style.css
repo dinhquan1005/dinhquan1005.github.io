@@ -1,0 +1,137 @@
+html,
+body {
+  background-image: url(./image/ymmt.jpg);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-size: cover;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);
+    color: aqua;
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.1);
+    color: blueviolet;
+    opacity: 1;
+  }
+  40% {
+    transform: scale(0.9);
+    color: red;
+    opacity: 1;
+  }
+  55% {
+    transform: scale(1.1);
+    color: burlywood;
+    opacity: 1;
+  }
+  75% {
+    transform: scale(0.95);
+    color: white;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    color: lawngreen;
+    opacity: 1;
+  }
+}
+
+#thao {
+  position: absolute; /* Giữ nguyên vị trí tuyệt đối */
+  top: 15%; /* Khoảng cách từ đỉnh */
+  left: 10px; /* Khoảng cách từ trái, điều chỉnh theo ý bạn */
+  padding: 200px;
+  background-image: url(../image/thao.jpg);
+  background-size: cover;
+  display: block;
+  text-align: center; /* Căn giữa chữ trong khối */
+  transition: 0.5s; /* Sửa lỗi định dạng thời gian chuyển đổi */
+  border-radius: 50%; /* Loại bỏ viền của nút */
+  border: double green 5px;
+  overflow: hidden; /* Ẩn bất kỳ nội dung nào vượt ra ngoài nút */
+  animation: heart 0.5s infinite;
+}
+
+#gthao {
+  position: absolute;
+  top: 75%; /* Đặt chữ ở góc trên cùng */
+  left: 60px; /* Căn trái */
+  padding: 10px 20px;
+  border-radius: 50px;
+  padding: 8px 90px;
+  font-family: "Arial", sans-serif; /* Chọn font chữ */
+  font-style: italic; /* Làm chữ nghiêng */
+  font-weight: bold; /* Làm chữ đậm */
+  font-size: 20px; /* Đặt kích thước font chữ */
+  color: green; /* Màu chữ, ví dụ màu cam Tomato */
+  text-shadow: 1px 1px 2px black; /* Thêm bóng đổ cho chữ để tăng độ sâu và sự nổi bật */
+  animation: heart 1s infinite; /* Áp dụng animation vừa định nghĩa */
+}
+
+#giao {
+  position: absolute; /* Giữ nguyên vị trí tuyệt đối */
+  top: 15%; /* Khoảng cách từ đỉnh */
+  left: 550px; /* Khoảng cách từ trái, điều chỉnh theo ý bạn */
+  padding: 200px;
+  background-image: url(../image/giao.jpg);
+  background-size: cover;
+  display: block;
+  text-align: center; /* Căn giữa chữ trong khối */
+  transition: 0.5s; /* Sửa lỗi định dạng thời gian chuyển đổi */
+  border-radius: 50%;
+  border: ridge blue 5px;
+  overflow: hidden;
+  animation: heart 0.5s infinite;
+}
+
+#pgiao {
+  position: absolute;
+  top: 75%; /* Đặt chữ ở góc trên cùng */
+  left: 600px; /* Căn trái */
+  padding: 10px 20px;
+  border-radius: 50px;
+  padding: 8px 90px;
+  font-family: "Arial", sans-serif; /* Chọn font chữ */
+  font-style: italic; /* Làm chữ nghiêng */
+  font-weight: bold; /* Làm chữ đậm */
+  font-size: 20px; /* Đặt kích thước font chữ */
+  color: blue; /* Màu chữ, ví dụ màu cam Tomato */
+  text-shadow: 1px 1px 2px black; /* Thêm bóng đổ cho chữ để tăng độ sâu và sự nổi bật */
+  animation: heart 1s infinite;
+}
+
+#dung {
+  position: absolute; /* Giữ nguyên vị trí tuyệt đối */
+  top: 15%; /* Khoảng cách từ đỉnh */
+  left: 1100px; /* Khoảng cách từ trái, điều chỉnh theo ý bạn */
+  padding: 200px;
+  background-image: url(../image/dung.jpg);
+  background-size: cover;
+  display: block;
+  text-align: center; /* Căn giữa chữ trong khối */
+  transition: 0.5s; /* Sửa lỗi định dạng thời gian chuyển đổi */
+  border-radius: 50%;
+  border: outset orange 5px;
+  overflow: hidden;
+  animation: heart 0.5s infinite;
+}
+
+#ddung {
+  position: absolute;
+  top: 75%; /* Đặt chữ ở góc trên cùng */
+  left: 1150px; /* Căn trái */
+  padding: 10px 20px;
+  border-radius: 50px;
+  padding: 8px 90px;
+  font-family: "Arial", sans-serif; /* Chọn font chữ */
+  font-style: italic; /* Làm chữ nghiêng */
+  font-weight: bold; /* Làm chữ đậm */
+  font-size: 20px; /* Đặt kích thước font chữ */
+  color: orange; /* Màu chữ, ví dụ màu cam Tomato */
+  text-shadow: 1px 1px 2px black; /* Thêm bóng đổ cho chữ để tăng độ sâu và sự nổi bật */
+  animation: heart 1s infinite;
+}
