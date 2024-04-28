@@ -53,7 +53,7 @@ body {
   border-radius: 50%; /* Loại bỏ viền của nút */
   border: double green 5px;
   overflow: hidden; /* Ẩn bất kỳ nội dung nào vượt ra ngoài nút */
-  animation: heart 0.5s infinite;
+  animation: heart 2s infinite;
 }
 
 #gthao {
@@ -85,7 +85,7 @@ body {
   border-radius: 50%;
   border: ridge blue 5px;
   overflow: hidden;
-  animation: heart 0.5s infinite;
+  animation: heart 2s infinite;
 }
 
 #pgiao {
@@ -117,7 +117,7 @@ body {
   border-radius: 50%;
   border: outset orange 5px;
   overflow: hidden;
-  animation: heart 0.5s infinite;
+  animation: heart 2s infinite;
 }
 
 #ddung {
